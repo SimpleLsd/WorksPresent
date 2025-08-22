@@ -1,3 +1,20 @@
 :root {
-  --procurement--main: #107246;
+  --procurement-main: #107246;
+  --procurement-bg: #f8fafc;
+  --home-shadow: -8px -8px 20px 0 rgba(255, 255, 255, 0.5), 8px 8px 20px 0 rgba(55, 90, 170, 0.05);
+  --home-border: 1px solid #f0f0f0;
+  --home-r: 16px;
+
+  --text-black: #000;
+  --text-primary: #303133;
+  --text-regular: #606266;
+  --text-secondary: #909399;
+  --text-placeholder: #a7abb2;
+  --text-disable: #c0c4cc;
+  --text-white: #fff;
+}
+a {
+  text-decoration: none;
+  color: #107246;
+  cursor: pointer;
 }

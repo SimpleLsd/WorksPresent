@@ -23,36 +23,6 @@
       </div>
       <div class="right_blue"></div>
     </div>
-    <div class="num_infos">
-      <div class="info">
-        <div class="line_1">
-          <p class="num">31,415</p>
-          <p class="suffix">個</p>
-        </div>
-        <p class="line_2">已入庫供應商</p>
-      </div>
-      <div class="info">
-        <div class="line_1">
-          <p class="num">31,415</p>
-          <p class="suffix">個</p>
-        </div>
-        <p class="line_2">已入庫供應商</p>
-      </div>
-      <div class="info">
-        <div class="line_1">
-          <p class="num">31,415</p>
-          <p class="suffix">個</p>
-        </div>
-        <p class="line_2">已入庫供應商</p>
-      </div>
-      <div class="info">
-        <div class="line_1">
-          <p class="num">31,415</p>
-          <p class="suffix">個</p>
-        </div>
-        <p class="line_2">已入庫供應商</p>
-      </div>
-    </div>
   </div>
 </template>
 
@@ -127,6 +97,9 @@ button.main_button {
   color: #000;
   font-size: 14px;
   font-weight: 500;
+  box-shadow:
+    -8px -8px 20px 0 rgba(255, 255, 255, 0.5),
+    8px 8px 20px 0 rgba(55, 90, 170, 0.05);
 }
 a.text_link {
   font-size: 14px;

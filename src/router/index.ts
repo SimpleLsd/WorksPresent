@@ -11,8 +11,8 @@ const router = createRouter({
     },
     {
       path: '/procurement',
-      name:'procurement',
-      component:() => import('../views/ProcuremnetHomeView.vue')
+      name: 'procurement',
+      component: () => import('../views/ProcurementHomeView.vue'),
     },
     {
       path: '/about',
